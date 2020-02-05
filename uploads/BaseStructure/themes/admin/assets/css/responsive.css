@@ -1,0 +1,119 @@
+/*
+Template Name: Rocks Admin
+Author Name: KVTHEMES
+Email: info@kvthemes.com / kvthemes@gmail.com
+File: Responsive style sheet
+*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  .content-page {
+    margin-left: 0px !important;
+  }
+  .collapse-menu .left.side-menu {
+    margin-left: -75px;
+  }
+  .mobile-sidebar {
+    left: 0px;
+  }
+  .mobile-content {
+    left: 250px;
+    right: -250px;
+  }
+  .wrapper-page {
+    width: 90%;
+  }
+  .navbar-nav .open .dropdown-menu {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    left: auto;
+    position: absolute;
+    right: 0;
+  }
+  .todo-send {
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  .chat-inputbar {
+    padding-left: 15px;
+  }
+  .chat-send {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer {
+    left: 0px !important;
+  }
+   .search-div a{
+    position: absolute;
+    top: 7px;
+    left: 155px;
+  }
+  
+  .fullscreen-button{
+    display: none !important;
+  }
+
+  .breadcrumb-area{
+  margin-top: 0px;
+  }
+
+  .topbar{
+    display: none;
+  }
+
+  .logo{
+    text-align: left;
+    margin-left: 20px;
+  }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+}
+
+@media (max-width: 420px) {
+  .hide-phone {
+    display: none !important;
+  }
+  
+  .logo i {
+    margin-right: 0px;
+  }
+  .breadcrumb-area{
+    display: none;
+  }
+}
+/* Container-alt */
+@media (min-width: 768px) {
+  .container-alt {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-alt {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-alt {
+    width: 1170px;
+  }
+}
